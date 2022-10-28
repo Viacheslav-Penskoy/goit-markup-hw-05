@@ -59,7 +59,7 @@
                     <h1 class="title-text">
                     Ефективні рішення для вашого бізнесу
                     </h1>
-                    <button class="title-button" type="button">Замовити послугу</button>
+                    <button class="title-button" data-modal-open type="button">Замовити послугу</button>
                 </div>
             </section> 
         </div>
@@ -403,6 +403,16 @@
             </div>  
         </div>
     </footer>
-       
+   <!--Модальное окно-->  
+   <div class="backdrop" data-modal>
+        <div class="modal">
+            <button class="button-modal-close" data-modal-close>
+                <svg class="modal-close-icon" width="18" height="18">
+                    <use href="./img/icons.svg#modal-close"></use>
+                </svg>
+            </button>
+        </div>
+   </div> 
+<script src="./js/modal.js"></script>
 </body>
 </html>

@@ -100,6 +100,8 @@ img {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-studio-link:hover, 
 .nav-studio-link:focus {
@@ -117,7 +119,10 @@ img {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .nav-portfolio-link:hover,
 .nav-portfolio-link:focus {
     color: var(--active-color);
@@ -129,6 +134,9 @@ img {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .nav-contacts-link:hover,
 .nav-contacts-link:focus {
@@ -160,6 +168,8 @@ img {
     align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adres-header-mail:hover,
@@ -192,6 +202,8 @@ img {
     align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adres-header-tel:hover,
@@ -260,7 +272,7 @@ img {
         text-align: center;
         letter-spacing: 0.06em;
         color:#FFFFFF ;
-        background: #2196F3;
+        background-color: #2196F3;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border: none;
         border-radius: 4px;
@@ -268,13 +280,15 @@ img {
         
         padding: 10px 32px;
         margin: 30px auto 0px;
+
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .title-button:hover,
     .title-button:focus, 
     .title-button:active {
         color: #FFFFFF;
-        background: #188CE8;
+        background-color: #188CE8;
     }
     /*особливості (advantage)*/
     .no-padding {
@@ -363,7 +377,8 @@ img {
         position: absolute;
         left: 0px;
         bottom: 0px;
-        
+        z-index: 50;
+
         display:flex;
         justify-content: center;
         align-items: center;
@@ -459,8 +474,9 @@ img {
         width: 44px;
         height: 44px;
         border-radius: 50%;
-
         padding: 12px;
+
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .social-link-img:hover,
     .social-link-img:focus {
@@ -476,6 +492,7 @@ img {
 
     .social-link-icon {
         fill: #AFB1B8;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .social-link-icon:hover,
     .social-link-icon:focus {
@@ -510,6 +527,8 @@ img {
         border: 1px solid #AFB1B8;
         border-radius: 4px;
         border-color: rgba(175, 177, 184, 1);
+        
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .clients-icon {
         justify-content: center;
@@ -517,6 +536,7 @@ img {
         display: block;
         margin: auto;
 
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .clients-img:hover,
     .clients-img:focus {
@@ -579,6 +599,8 @@ img {
 .adres-footer-post {
     color: #FFFFFF;
     text-decoration: none;
+    
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adres-footer-post:hover,
 .adres-footer-post:focus {
@@ -589,6 +611,7 @@ img {
     text-decoration: none;
     
     margin-top: 9px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adres-footer-mail:hover,
 .adres-footer-mail:focus {
@@ -599,6 +622,7 @@ img {
     text-decoration: none;
     
     margin-top: 9px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adres-footer-tel:hover,
 .adres-footer-tel:focus {
@@ -635,6 +659,8 @@ img {
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
     padding: 12px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link-img-footer:hover,
 .social-link-img-footer:focus {
@@ -666,7 +692,7 @@ img {
     top: 50%;
     left:50%;
     transform: translate(-50%,-50%);
-
+    
     width: 528px;
     height: 581px;
     background-color: #FFFFFF;
@@ -724,18 +750,22 @@ img {
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
-        background: #F5F4FA;
+        background-color: #F5F4FA;
         border: none;
         border-radius: 4px;
         cursor: pointer;
         
-        padding: 6px 25px
+        padding: 6px 25px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     }
     .jobs-button-first:hover,
     .jobs-button-first:focus,
     .jobs-button-first:active {
         color: #FFFFFF;
-        background: var(--active-color);
+        background-color: var(--active-color);
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
         border-radius: 4px;
     }
@@ -755,6 +785,9 @@ img {
         cursor: pointer;
         
         padding: 6px 22px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
     .jobs-button:hover,
@@ -776,7 +809,8 @@ img {
     }
     .jobs-img-link {
         display: block;
-        text-decoration: none
+        text-decoration: none;
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .jobs-img-link:hover,
     .jobs-img-link:focus {
@@ -806,6 +840,8 @@ img {
         
         overflow: auto;
         transform: translateY(100%);
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
     }
     .jobs-img-div:hover .jobs-img-overlay,
     .jobs-img-div:focus .jobs-img-overlay {

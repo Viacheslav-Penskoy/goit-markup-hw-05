@@ -354,6 +354,32 @@ img {
     .profesion-list .item:last-child {
         margin-right: 0px;
     }
+
+    .profesion-list-img {
+        position: relative;
+    }
+
+    .profesion-list-p {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 70px;
+        background-color: rgba(47, 48, 58, 0.8);
+
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
     /*Наша Команда (team)*/
     .team-section {
         background-color: #F5F4FA;
@@ -665,7 +691,7 @@ img {
     padding: 0;
 }
 
-.modal-close-icon {}
+/*.modal-close-icon {} ??? */
 
 
 /*main portfolio*/

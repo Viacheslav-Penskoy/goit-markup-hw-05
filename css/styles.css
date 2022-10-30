@@ -377,7 +377,7 @@ img {
         position: absolute;
         left: 0px;
         bottom: 0px;
-        z-index: 50;
+        z-index: 10;
 
         display:flex;
         justify-content: center;
@@ -395,6 +395,7 @@ img {
         text-transform: uppercase;
         color: #FFFFFF;
     }
+    
     /*Наша Команда (team)*/
     .team-section {
         background-color: #F5F4FA;
